@@ -7,6 +7,9 @@ exports.handler = function (event, context, callback) {
   //pull the required information from your environment variables, which can be set in the Netlify UI
   const { API_URL, API_CLIENT_ID, API_KEY } = process.env;
   console.log('aaaaaaa');
+  console.log('aaaaaaa');
+  console.log('aaaaaaa');
+  console.log('aaaaaaa');
   // THIS FUNCTION FORMATS AND SENDS YOUR RESPONSE BACK TO YOUR FRONT-END
   // const send = body => {
   //   callback(null, {
